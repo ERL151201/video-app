@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web site created using create-snowpack-app" />
+
+    <link rel="stylesheet" type="text/css" href="/_dist_/index.css" />
+    <title>App video</title>
+</head>
+
+<body>
+    <h1 class="text-2xl uppercase text-center text-red-800 overline">Video app</h1>
+    <video width="320" height="250" controls id="video" class="center">
+      <source src="video/spiderman.mp4" type="video/mp4">
+      su navegador no soporta la etiqueta de video
+      
+    </video>
+
+
+    <div id="botones">
+        <button id="play" class="py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">Play/pausa</button>
+        <button id="recargar" class="py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Recargar Video</button>
+        <button id="completo" class="py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gray-600 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">Pantalla completa</button>
+
+
+    </div>
+
+    <script type="module" src="/_dist_/index.js"></script>
+</body>
+
+</html>
